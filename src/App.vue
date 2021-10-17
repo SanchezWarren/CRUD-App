@@ -1,5 +1,5 @@
 <template>
-  <the-header v-if="$route.name!='index'"></the-header>
+  <the-header></the-header>
   <router-view v-slot="slotProps">
     <transition name="route" mode="out-in">
       <component :is="slotProps.Component"></component>
@@ -76,7 +76,7 @@ body {
 }
 
 .route-leave-active {
-  transition: all 0.3s ease-in;
+  transition: all 0.0s ease-in;
 }
 
 .route-enter-to,

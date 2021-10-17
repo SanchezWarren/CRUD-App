@@ -8,7 +8,7 @@
       <p>{{ error }}</p>
     </base-dialog>
     <section>
-      <IndexHeader />
+      <!-- <IndexHeader /> -->
     </section>
     <!-- <section class="flex-list">
       
@@ -58,13 +58,13 @@
 import CoachItem from '../../components/coaches/CoachItem.vue';
 /* import CoachFilter from '../../components/coaches/CoachFilter.vue'; */
 /* import IndexHeader from '@/components/layout/IndexHeader.vue'; */
-import IndexHeader from '@/components/layout/IndexHeader.vue';
-
+/* import IndexHeader from '@/components/layout/IndexHeader.vue';
+ */
 export default {
   components: {
     CoachItem,
     /* CoachFilter, */
-    IndexHeader
+    /* IndexHeader */
   },
   data() {
     return {
