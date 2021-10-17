@@ -20,7 +20,7 @@ Your coach is a basic CRUD App powered by Vue.js on the frontend and Firebase on
 ## Tech
 
 Main features used for this project:
-- [Vue.js] 
+- Vue.js
 -- Vuex
 -- Vue Router
 -- Vue Transitions
@@ -31,7 +31,7 @@ Main features used for this project:
 - HTML 5
 - CSS3
 
-And of course YourCoach is open source with a [public repository]
+And of course YourCoach is open source with a [public repository](https://github.com/SanchezWarren/CRUD-App)
  on GitHub.
 
 ## License
