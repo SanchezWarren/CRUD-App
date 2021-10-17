@@ -6,7 +6,7 @@
     </transition>
   </router-view>
   <the-footer></the-footer>
-</template>
+</template> 
 
 <script>
 import TheHeader from './components/layout/TheHeader.vue';
